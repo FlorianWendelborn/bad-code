@@ -1,0 +1,27 @@
+{
+  "name": "bad-code",
+  "version": "0.0.1",
+  "description": "Generates the worst code you&#39;ve never known you needed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "travis": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodekeract/bad-code.git"
+  },
+  "keywords": [],
+  "author": "dodekeract",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dodekeract/bad-code/issues"
+  },
+  "homepage": "https://github.com/dodekeract/bad-code#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.3.19",
+    "mocha": "^2.3.0"
+  }
+}
